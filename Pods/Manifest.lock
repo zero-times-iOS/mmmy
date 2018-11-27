@@ -1,0 +1,16 @@
+PODS:
+  - Fusuma (1.2.4)
+
+DEPENDENCIES:
+  - Fusuma (~> 1.2.4)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Fusuma
+
+SPEC CHECKSUMS:
+  Fusuma: e85c394878a2e1549c67140ba7c038aff8d7581c
+
+PODFILE CHECKSUM: e753425e00c07fd27949a7e000b6b88a0ee68837
+
+COCOAPODS: 1.6.0.beta.2
