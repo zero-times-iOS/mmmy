@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		0C1B885721AD1BB900325CCA /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1B885621AD1BB900325CCA /* BaseViewController.swift */; };
 		0C75E37621ACE58F001DA908 /* strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C75E37521ACE58F001DA908 /* strings.swift */; };
+		0CA67C4E21AD2B59003A2E74 /* LaunchRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA67C4D21AD2B59003A2E74 /* LaunchRegisterViewController.swift */; };
+		0CA67C5021AD2FB2003A2E74 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA67C4F21AD2FB2003A2E74 /* LoginViewController.swift */; };
+		0CA67C5221AD3463003A2E74 /* NamedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA67C5121AD3463003A2E74 /* NamedViewController.swift */; };
+		0CA67C5421AD6223003A2E74 /* BornDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA67C5321AD6223003A2E74 /* BornDateViewController.swift */; };
 		0CD5C69821ACCB940095F0D4 /* MMMYAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD5C69621ACCB930095F0D4 /* MMMYAppDelegate.swift */; };
 		0CD5C69921ACCB940095F0D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD5C69721ACCB940095F0D4 /* ViewController.swift */; };
 		0CD5C6A121ACCBA30095F0D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CD5C69A21ACCBA30095F0D4 /* Assets.xcassets */; };
 		0CD5C6A321ACCBA30095F0D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CD5C69D21ACCBA30095F0D4 /* LaunchScreen.storyboard */; };
 		0CD5C6A421ACCBA30095F0D4 /* FirstStartMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CD5C69F21ACCBA30095F0D4 /* FirstStartMain.storyboard */; };
-		0CD5C6AD21ACD4810095F0D4 /* LaunchRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD5C6AC21ACD4810095F0D4 /* LaunchRegisterViewController.swift */; };
 		0CD5C6B021ACD51B0095F0D4 /* Ground.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CD5C6AE21ACD51B0095F0D4 /* Ground.storyboard */; };
 		0CD5C6B621ACDAD90095F0D4 /* MMMYTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD5C6B521ACDAD90095F0D4 /* MMMYTabbarViewController.swift */; };
 		0CD5C6B821ACDBC70095F0D4 /* LoadStoryBoardUntils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD5C6B721ACDBC70095F0D4 /* LoadStoryBoardUntils.swift */; };
@@ -24,6 +27,10 @@
 /* Begin PBXFileReference section */
 		0C1B885621AD1BB900325CCA /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		0C75E37521ACE58F001DA908 /* strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = strings.swift; sourceTree = "<group>"; };
+		0CA67C4D21AD2B59003A2E74 /* LaunchRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchRegisterViewController.swift; sourceTree = "<group>"; };
+		0CA67C4F21AD2FB2003A2E74 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0CA67C5121AD3463003A2E74 /* NamedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamedViewController.swift; sourceTree = "<group>"; };
+		0CA67C5321AD6223003A2E74 /* BornDateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BornDateViewController.swift; sourceTree = "<group>"; };
 		0CD5C67A21ACCABF0095F0D4 /* mmmy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mmmy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CD5C69621ACCB930095F0D4 /* MMMYAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMMYAppDelegate.swift; sourceTree = "<group>"; };
 		0CD5C69721ACCB940095F0D4 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -32,7 +39,6 @@
 		0CD5C69E21ACCBA30095F0D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CD5C6A021ACCBA30095F0D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = FirstStartMain.storyboard; sourceTree = "<group>"; };
 		0CD5C6A521ACCBC40095F0D4 /* mmmy-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "mmmy-Bridging-Header.h"; sourceTree = "<group>"; };
-		0CD5C6AC21ACD4810095F0D4 /* LaunchRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchRegisterViewController.swift; sourceTree = "<group>"; };
 		0CD5C6AF21ACD51B0095F0D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Ground.storyboard; sourceTree = "<group>"; };
 		0CD5C6B521ACDAD90095F0D4 /* MMMYTabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMMYTabbarViewController.swift; sourceTree = "<group>"; };
 		0CD5C6B721ACDBC70095F0D4 /* LoadStoryBoardUntils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadStoryBoardUntils.swift; sourceTree = "<group>"; usesTabs = 0; };
@@ -136,7 +142,10 @@
 		0CD5C6A721ACD0760095F0D4 /* register */ = {
 			isa = PBXGroup;
 			children = (
-				0CD5C6AC21ACD4810095F0D4 /* LaunchRegisterViewController.swift */,
+				0CA67C4D21AD2B59003A2E74 /* LaunchRegisterViewController.swift */,
+				0CA67C4F21AD2FB2003A2E74 /* LoginViewController.swift */,
+				0CA67C5121AD3463003A2E74 /* NamedViewController.swift */,
+				0CA67C5321AD6223003A2E74 /* BornDateViewController.swift */,
 			);
 			path = register;
 			sourceTree = "<group>";
@@ -295,11 +304,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CA67C5221AD3463003A2E74 /* NamedViewController.swift in Sources */,
 				0CD5C6B821ACDBC70095F0D4 /* LoadStoryBoardUntils.swift in Sources */,
 				0CD5C6B621ACDAD90095F0D4 /* MMMYTabbarViewController.swift in Sources */,
+				0CA67C5421AD6223003A2E74 /* BornDateViewController.swift in Sources */,
 				0C75E37621ACE58F001DA908 /* strings.swift in Sources */,
 				0CD5C69921ACCB940095F0D4 /* ViewController.swift in Sources */,
-				0CD5C6AD21ACD4810095F0D4 /* LaunchRegisterViewController.swift in Sources */,
+				0CA67C5021AD2FB2003A2E74 /* LoginViewController.swift in Sources */,
+				0CA67C4E21AD2B59003A2E74 /* LaunchRegisterViewController.swift in Sources */,
 				0C1B885721AD1BB900325CCA /* BaseViewController.swift in Sources */,
 				0CD5C69821ACCB940095F0D4 /* MMMYAppDelegate.swift in Sources */,
 			);

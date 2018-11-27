@@ -9,7 +9,7 @@
 import UIKit
 
 class BaseViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
@@ -17,12 +17,11 @@ class BaseViewController: UIViewController {
 
     /// UI 初始化
     open func setupUI() {
-        
+
     }
     
     /// UI 更新
     open func updateUI() {
         
     }
-    
 }

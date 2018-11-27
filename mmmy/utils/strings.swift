@@ -26,4 +26,12 @@ public struct strings {
         public static let ground = "Ground"
     }
     
+    /// Segue 标识符
+    public struct segue {
+        /// * To LoginViewController
+        public static let toLoginIdentifier  = "To LoginViewController"
+        /// * To Born Date ViewController
+        public static let toBornDateIdentifier = "To Born Date"
+    }
+    
 }
