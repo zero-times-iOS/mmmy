@@ -8,7 +8,7 @@ target 'mmmy' do
   # Pods for mmmy
 
 # photo lib
-pod 'Fusuma', '~> 1.2.4'
+#pod 'Fusuma', '~> 1.2.4'
 
 
 

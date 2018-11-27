@@ -12,7 +12,9 @@
 		0CD5C6A121ACCBA30095F0D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CD5C69A21ACCBA30095F0D4 /* Assets.xcassets */; };
 		0CD5C6A221ACCBA30095F0D4 /* mmmy-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0CD5C69B21ACCBA30095F0D4 /* mmmy-Info.plist */; };
 		0CD5C6A321ACCBA30095F0D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CD5C69D21ACCBA30095F0D4 /* LaunchScreen.storyboard */; };
-		0CD5C6A421ACCBA30095F0D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CD5C69F21ACCBA30095F0D4 /* Main.storyboard */; };
+		0CD5C6A421ACCBA30095F0D4 /* FirstStartMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CD5C69F21ACCBA30095F0D4 /* FirstStartMain.storyboard */; };
+		0CD5C6AD21ACD4810095F0D4 /* LaunchRigisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD5C6AC21ACD4810095F0D4 /* LaunchRigisterViewController.swift */; };
+		0CD5C6B021ACD51B0095F0D4 /* Ground.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CD5C6AE21ACD51B0095F0D4 /* Ground.storyboard */; };
 		53166C91A09E00DBCF3120DC /* Pods_mmmy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAABA1DB7CACB3987671D6F4 /* Pods_mmmy.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,8 +25,10 @@
 		0CD5C69A21ACCBA30095F0D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CD5C69B21ACCBA30095F0D4 /* mmmy-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "mmmy-Info.plist"; sourceTree = "<group>"; };
 		0CD5C69E21ACCBA30095F0D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0CD5C6A021ACCBA30095F0D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		0CD5C6A021ACCBA30095F0D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = FirstStartMain.storyboard; sourceTree = "<group>"; };
 		0CD5C6A521ACCBC40095F0D4 /* mmmy-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "mmmy-Bridging-Header.h"; sourceTree = "<group>"; };
+		0CD5C6AC21ACD4810095F0D4 /* LaunchRigisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchRigisterViewController.swift; sourceTree = "<group>"; };
+		0CD5C6AF21ACD51B0095F0D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Ground.storyboard; sourceTree = "<group>"; };
 		3BB93C1D922DAA1BF236F159 /* Pods-mmmy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mmmy.debug.xcconfig"; path = "Target Support Files/Pods-mmmy/Pods-mmmy.debug.xcconfig"; sourceTree = "<group>"; };
 		AC6C9F3E47A00293EB8D8346 /* Pods-mmmy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mmmy.release.xcconfig"; path = "Target Support Files/Pods-mmmy/Pods-mmmy.release.xcconfig"; sourceTree = "<group>"; };
 		FAABA1DB7CACB3987671D6F4 /* Pods_mmmy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mmmy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,7 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				0CD5C69D21ACCBA30095F0D4 /* LaunchScreen.storyboard */,
-				0CD5C69F21ACCBA30095F0D4 /* Main.storyboard */,
+				0CD5C69F21ACCBA30095F0D4 /* FirstStartMain.storyboard */,
+				0CD5C6AE21ACD51B0095F0D4 /* Ground.storyboard */,
 			);
 			path = Base.lproj;
 			sourceTree = "<group>";
@@ -113,6 +118,7 @@
 		0CD5C6A721ACD0760095F0D4 /* register */ = {
 			isa = PBXGroup;
 			children = (
+				0CD5C6AC21ACD4810095F0D4 /* LaunchRigisterViewController.swift */,
 			);
 			path = register;
 			sourceTree = "<group>";
@@ -144,7 +150,6 @@
 				3BB93C1D922DAA1BF236F159 /* Pods-mmmy.debug.xcconfig */,
 				AC6C9F3E47A00293EB8D8346 /* Pods-mmmy.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -167,7 +172,6 @@
 				0CD5C67621ACCABF0095F0D4 /* Sources */,
 				0CD5C67721ACCABF0095F0D4 /* Frameworks */,
 				0CD5C67821ACCABF0095F0D4 /* Resources */,
-				689D44EB85CB9004A4F2C082 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -219,8 +223,9 @@
 			files = (
 				0CD5C6A321ACCBA30095F0D4 /* LaunchScreen.storyboard in Resources */,
 				0CD5C6A221ACCBA30095F0D4 /* mmmy-Info.plist in Resources */,
+				0CD5C6B021ACD51B0095F0D4 /* Ground.storyboard in Resources */,
 				0CD5C6A121ACCBA30095F0D4 /* Assets.xcassets in Resources */,
-				0CD5C6A421ACCBA30095F0D4 /* Main.storyboard in Resources */,
+				0CD5C6A421ACCBA30095F0D4 /* FirstStartMain.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,28 +254,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		689D44EB85CB9004A4F2C082 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-mmmy/Pods-mmmy-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Fusuma/Fusuma.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Fusuma.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mmmy/Pods-mmmy-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -279,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CD5C69921ACCB940095F0D4 /* ViewController.swift in Sources */,
+				0CD5C6AD21ACD4810095F0D4 /* LaunchRigisterViewController.swift in Sources */,
 				0CD5C69821ACCB940095F0D4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,12 +278,20 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		0CD5C69F21ACCBA30095F0D4 /* Main.storyboard */ = {
+		0CD5C69F21ACCBA30095F0D4 /* FirstStartMain.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				0CD5C6A021ACCBA30095F0D4 /* Base */,
 			);
-			name = Main.storyboard;
+			name = FirstStartMain.storyboard;
+			sourceTree = "<group>";
+		};
+		0CD5C6AE21ACD51B0095F0D4 /* Ground.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CD5C6AF21ACD51B0095F0D4 /* Base */,
+			);
+			name = Ground.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
