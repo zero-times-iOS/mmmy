@@ -15,7 +15,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+
+        let rootViewController = LoadStoryBoardUntils.loadViewController(
+            strings.storyBoard.launchStartMain,
+            with: strings.vc.launchRegister)
+
+//        let rootViewController = LoadStoryBoardUntils.loadViewController(
+//            strings.storyBoard.ground,
+//            with: strings.vc.mmmyTabbar)
+        window?.rootViewController = rootViewController;
+        
         return true
     }
 

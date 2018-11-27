@@ -9,12 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    /// 视图加载完成
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-
 }
 
