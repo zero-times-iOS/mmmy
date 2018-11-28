@@ -32,6 +32,22 @@ public struct strings {
         public static let toLoginIdentifier  = "To LoginViewController"
         /// * To Born Date ViewController
         public static let toBornDateIdentifier = "To Born Date"
+        /// * Bottom Has Account ViewController
+        public static let bottomBarIdentifier = "Bottom Bar"
+        /// * To Sex ViewController
+        public static let sexChoiseIdentifier = "To Sex"
+    }
+    
+    /// 用户标识key
+    public struct userKey {
+        /// * Name
+        public static let name = "Name"
+        /// * Sub Name
+        public static let subName = "Sub Name"
+        /// * Born Date
+        public static let bornDate = "Born Date"
+        /// * Sex
+        public static let sex = "Sex"
     }
     
 }
