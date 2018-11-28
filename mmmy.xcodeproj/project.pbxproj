@@ -14,8 +14,8 @@
 		0CA67C5221AD3463003A2E74 /* NamedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA67C5121AD3463003A2E74 /* NamedViewController.swift */; };
 		0CA67C5421AD6223003A2E74 /* BornDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA67C5321AD6223003A2E74 /* BornDateViewController.swift */; };
 		0CA67C5821AD6ED7003A2E74 /* BottomBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA67C5721AD6ED7003A2E74 /* BottomBarViewController.swift */; };
-		0CA67C5C21AE4497003A2E74 /* DateChoiseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA67C5A21AE4497003A2E74 /* DateChoiseViewController.swift */; };
-		0CA67C5D21AE4497003A2E74 /* DateChoiseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CA67C5B21AE4497003A2E74 /* DateChoiseViewController.xib */; };
+		0CA67C5F21AE7DCE003A2E74 /* SexChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA67C5E21AE7DCE003A2E74 /* SexChoiceViewController.swift */; };
+		0CA67C6121AE8D23003A2E74 /* PhoneNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA67C6021AE8D23003A2E74 /* PhoneNumberViewController.swift */; };
 		0CD5C69821ACCB940095F0D4 /* MMMYAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD5C69621ACCB930095F0D4 /* MMMYAppDelegate.swift */; };
 		0CD5C69921ACCB940095F0D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD5C69721ACCB940095F0D4 /* ViewController.swift */; };
 		0CD5C6A121ACCBA30095F0D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CD5C69A21ACCBA30095F0D4 /* Assets.xcassets */; };
@@ -35,8 +35,8 @@
 		0CA67C5121AD3463003A2E74 /* NamedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamedViewController.swift; sourceTree = "<group>"; };
 		0CA67C5321AD6223003A2E74 /* BornDateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BornDateViewController.swift; sourceTree = "<group>"; };
 		0CA67C5721AD6ED7003A2E74 /* BottomBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBarViewController.swift; sourceTree = "<group>"; };
-		0CA67C5A21AE4497003A2E74 /* DateChoiseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateChoiseViewController.swift; sourceTree = "<group>"; };
-		0CA67C5B21AE4497003A2E74 /* DateChoiseViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DateChoiseViewController.xib; sourceTree = "<group>"; };
+		0CA67C5E21AE7DCE003A2E74 /* SexChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SexChoiceViewController.swift; sourceTree = "<group>"; };
+		0CA67C6021AE8D23003A2E74 /* PhoneNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberViewController.swift; sourceTree = "<group>"; };
 		0CD5C67A21ACCABF0095F0D4 /* mmmy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mmmy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CD5C69621ACCB930095F0D4 /* MMMYAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMMYAppDelegate.swift; sourceTree = "<group>"; };
 		0CD5C69721ACCB940095F0D4 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -71,15 +71,6 @@
 				0C1B885621AD1BB900325CCA /* BaseViewController.swift */,
 			);
 			path = base;
-			sourceTree = "<group>";
-		};
-		0CA67C5921AE4456003A2E74 /* DateChoise */ = {
-			isa = PBXGroup;
-			children = (
-				0CA67C5A21AE4497003A2E74 /* DateChoiseViewController.swift */,
-				0CA67C5B21AE4497003A2E74 /* DateChoiseViewController.xib */,
-			);
-			path = DateChoise;
 			sourceTree = "<group>";
 		};
 		0CD5C67121ACCABF0095F0D4 = {
@@ -162,6 +153,8 @@
 				0CA67C5121AD3463003A2E74 /* NamedViewController.swift */,
 				0CA67C5321AD6223003A2E74 /* BornDateViewController.swift */,
 				0CA67C5721AD6ED7003A2E74 /* BottomBarViewController.swift */,
+				0CA67C5E21AE7DCE003A2E74 /* SexChoiceViewController.swift */,
+				0CA67C6021AE8D23003A2E74 /* PhoneNumberViewController.swift */,
 			);
 			path = register;
 			sourceTree = "<group>";
@@ -190,7 +183,6 @@
 		0CD5C6B121ACD92F0095F0D4 /* utils */ = {
 			isa = PBXGroup;
 			children = (
-				0CA67C5921AE4456003A2E74 /* DateChoise */,
 				0CD5C6B721ACDBC70095F0D4 /* LoadStoryBoardUntils.swift */,
 				0C75E37521ACE58F001DA908 /* strings.swift */,
 			);
@@ -285,7 +277,6 @@
 				0CD5C6A321ACCBA30095F0D4 /* LaunchScreen.storyboard in Resources */,
 				0CD5C6B021ACD51B0095F0D4 /* Ground.storyboard in Resources */,
 				0CD5C6A121ACCBA30095F0D4 /* Assets.xcassets in Resources */,
-				0CA67C5D21AE4497003A2E74 /* DateChoiseViewController.xib in Resources */,
 				0CD5C6A421ACCBA30095F0D4 /* FirstStartMain.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -323,7 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CA67C5221AD3463003A2E74 /* NamedViewController.swift in Sources */,
-				0CA67C5C21AE4497003A2E74 /* DateChoiseViewController.swift in Sources */,
+				0CA67C5F21AE7DCE003A2E74 /* SexChoiceViewController.swift in Sources */,
 				0CD5C6B821ACDBC70095F0D4 /* LoadStoryBoardUntils.swift in Sources */,
 				0CD5C6B621ACDAD90095F0D4 /* MMMYTabbarViewController.swift in Sources */,
 				0CA67C5821AD6ED7003A2E74 /* BottomBarViewController.swift in Sources */,
@@ -331,6 +322,7 @@
 				0C75E37621ACE58F001DA908 /* strings.swift in Sources */,
 				0CD5C69921ACCB940095F0D4 /* ViewController.swift in Sources */,
 				0CA67C5021AD2FB2003A2E74 /* LoginViewController.swift in Sources */,
+				0CA67C6121AE8D23003A2E74 /* PhoneNumberViewController.swift in Sources */,
 				0CA67C4E21AD2B59003A2E74 /* LaunchRegisterViewController.swift in Sources */,
 				0C1B885721AD1BB900325CCA /* BaseViewController.swift in Sources */,
 				0CD5C69821ACCB940095F0D4 /* MMMYAppDelegate.swift in Sources */,

@@ -36,6 +36,10 @@ public struct strings {
         public static let bottomBarIdentifier = "Bottom Bar"
         /// * To Sex ViewController
         public static let sexChoiseIdentifier = "To Sex"
+        /// * To Set Phone
+        public static let phoneIdentifier = "To Phone"
+        /// * To Set password
+        public static let pwdIdentifier = "To Security"
     }
     
     /// 用户标识key
@@ -48,6 +52,8 @@ public struct strings {
         public static let bornDate = "Born Date"
         /// * Sex
         public static let sex = "Sex"
+        /// * phone
+        public static let phone = "Phone"
     }
     
 }

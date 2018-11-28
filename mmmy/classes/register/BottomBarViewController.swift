@@ -14,6 +14,8 @@ class BottomBarViewController: BaseViewController {
         case launch
         case named
         case bornDate
+        case sex
+        case phone
         case none
     }
     
@@ -47,6 +49,12 @@ class BottomBarViewController: BaseViewController {
             performSegue(withIdentifier: strings.segue.toLoginIdentifier, sender: nil)
             break
         case .bornDate:
+            presentAlertController()
+            break
+        case .sex:
+            presentAlertController()
+            break
+        case .phone:
             presentAlertController()
             break
         default:
