@@ -39,7 +39,9 @@ public struct strings {
         /// * To Set Phone
         public static let phoneIdentifier = "To Phone"
         /// * To Set password
-        public static let pwdIdentifier = "To Security"
+        public static let pwdIdentifier = "To Set Password"
+        /// * To Done Register
+        public static let doneRegiserIdentifier = "To Done Register"
     }
     
     /// 用户标识key
@@ -54,6 +56,8 @@ public struct strings {
         public static let sex = "Sex"
         /// * phone
         public static let phone = "Phone"
+        /// * pwd
+        public static let pwd = "Password"
     }
     
 }

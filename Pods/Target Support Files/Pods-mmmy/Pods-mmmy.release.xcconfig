@@ -1,5 +1,9 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Flurry-iOS-SDK" "${PODS_ROOT}/Crashlytics/iOS" "${PODS_ROOT}/Fabric/iOS"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Flurry-iOS-SDK/Flurry_iOS_SDK.framework/Headers"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Flurry-iOS-SDK/Flurry" "${PODS_ROOT}/Flurry-iOS-SDK/FlurryAds"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"FlurryAds_1.1.0" -l"Flurry_9.2.3" -l"c++" -l"z" -framework "AVFoundation" -framework "CoreGraphics" -framework "CoreMedia" -framework "CoreTelephony" -framework "Crashlytics" -framework "Fabric" -framework "Flurry_iOS_SDK" -framework "Foundation" -framework "MediaPlayer" -framework "Security" -framework "SystemConfiguration" -framework "UIKit" -framework "WebKit" -weak_framework "AdSupport" -weak_framework "SafariServices" -weak_framework "StoreKit"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.

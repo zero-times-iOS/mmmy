@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		0C1B885721AD1BB900325CCA /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1B885621AD1BB900325CCA /* BaseViewController.swift */; };
+		0C21A6AE21B0CCE30044D4FD /* EXNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C21A6AD21B0CCE30044D4FD /* EXNotification.swift */; };
+		0C21A6B021B103D40044D4FD /* EXUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C21A6AF21B103D40044D4FD /* EXUIViewController.swift */; };
+		0C21A6B521B115B80044D4FD /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C21A6B421B115B80044D4FD /* PasswordViewController.swift */; };
+		0C21A6B721B11B2A0044D4FD /* DoneRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C21A6B621B11B2A0044D4FD /* DoneRegisterViewController.swift */; };
 		0C75E37621ACE58F001DA908 /* strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C75E37521ACE58F001DA908 /* strings.swift */; };
 		0CA67C4E21AD2B59003A2E74 /* LaunchRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA67C4D21AD2B59003A2E74 /* LaunchRegisterViewController.swift */; };
 		0CA67C5021AD2FB2003A2E74 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA67C4F21AD2FB2003A2E74 /* LoginViewController.swift */; };
@@ -24,13 +28,18 @@
 		0CD5C6B021ACD51B0095F0D4 /* Ground.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CD5C6AE21ACD51B0095F0D4 /* Ground.storyboard */; };
 		0CD5C6B621ACDAD90095F0D4 /* MMMYTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD5C6B521ACDAD90095F0D4 /* MMMYTabbarViewController.swift */; };
 		0CD5C6B821ACDBC70095F0D4 /* LoadStoryBoardUntils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD5C6B721ACDBC70095F0D4 /* LoadStoryBoardUntils.swift */; };
-		53166C91A09E00DBCF3120DC /* Pods_mmmy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAABA1DB7CACB3987671D6F4 /* Pods_mmmy.framework */; };
+		0CE76A8421B8272C0071F87C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE76A8321B8272C0071F87C /* LoginView.swift */; };
+		FFF1AE44097912C1A67F75A3 /* Pods_mmmy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C80669288AD661F3E38A96AA /* Pods_mmmy.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0C1B885621AD1BB900325CCA /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		0C21A6AD21B0CCE30044D4FD /* EXNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EXNotification.swift; sourceTree = "<group>"; };
+		0C21A6AF21B103D40044D4FD /* EXUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EXUIViewController.swift; sourceTree = "<group>"; };
+		0C21A6B421B115B80044D4FD /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
+		0C21A6B621B11B2A0044D4FD /* DoneRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneRegisterViewController.swift; sourceTree = "<group>"; };
 		0C75E37521ACE58F001DA908 /* strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = strings.swift; sourceTree = "<group>"; };
-		0CA67C4D21AD2B59003A2E74 /* LaunchRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchRegisterViewController.swift; sourceTree = "<group>"; };
+		0CA67C4D21AD2B59003A2E74 /* LaunchRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchRegisterViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0CA67C4F21AD2FB2003A2E74 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0CA67C5121AD3463003A2E74 /* NamedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamedViewController.swift; sourceTree = "<group>"; };
 		0CA67C5321AD6223003A2E74 /* BornDateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BornDateViewController.swift; sourceTree = "<group>"; };
@@ -48,9 +57,12 @@
 		0CD5C6AF21ACD51B0095F0D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Ground.storyboard; sourceTree = "<group>"; };
 		0CD5C6B521ACDAD90095F0D4 /* MMMYTabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMMYTabbarViewController.swift; sourceTree = "<group>"; };
 		0CD5C6B721ACDBC70095F0D4 /* LoadStoryBoardUntils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadStoryBoardUntils.swift; sourceTree = "<group>"; usesTabs = 0; };
+		0CE765F721B604750071F87C /* libFlurry-iOS-SDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libFlurry-iOS-SDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CE765F921B604D70071F87C /* libFlurry-iOS-SDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libFlurry-iOS-SDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CE76A8321B8272C0071F87C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		3BB93C1D922DAA1BF236F159 /* Pods-mmmy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mmmy.debug.xcconfig"; path = "Target Support Files/Pods-mmmy/Pods-mmmy.debug.xcconfig"; sourceTree = "<group>"; };
 		AC6C9F3E47A00293EB8D8346 /* Pods-mmmy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mmmy.release.xcconfig"; path = "Target Support Files/Pods-mmmy/Pods-mmmy.release.xcconfig"; sourceTree = "<group>"; };
-		FAABA1DB7CACB3987671D6F4 /* Pods_mmmy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mmmy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C80669288AD661F3E38A96AA /* Pods_mmmy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mmmy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53166C91A09E00DBCF3120DC /* Pods_mmmy.framework in Frameworks */,
+				FFF1AE44097912C1A67F75A3 /* Pods_mmmy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,11 +162,14 @@
 			children = (
 				0CA67C4D21AD2B59003A2E74 /* LaunchRegisterViewController.swift */,
 				0CA67C4F21AD2FB2003A2E74 /* LoginViewController.swift */,
+				0CE76A8321B8272C0071F87C /* LoginView.swift */,
 				0CA67C5121AD3463003A2E74 /* NamedViewController.swift */,
 				0CA67C5321AD6223003A2E74 /* BornDateViewController.swift */,
 				0CA67C5721AD6ED7003A2E74 /* BottomBarViewController.swift */,
 				0CA67C5E21AE7DCE003A2E74 /* SexChoiceViewController.swift */,
 				0CA67C6021AE8D23003A2E74 /* PhoneNumberViewController.swift */,
+				0C21A6B421B115B80044D4FD /* PasswordViewController.swift */,
+				0C21A6B621B11B2A0044D4FD /* DoneRegisterViewController.swift */,
 			);
 			path = register;
 			sourceTree = "<group>";
@@ -185,6 +200,8 @@
 			children = (
 				0CD5C6B721ACDBC70095F0D4 /* LoadStoryBoardUntils.swift */,
 				0C75E37521ACE58F001DA908 /* strings.swift */,
+				0C21A6AD21B0CCE30044D4FD /* EXNotification.swift */,
+				0C21A6AF21B103D40044D4FD /* EXUIViewController.swift */,
 			);
 			path = utils;
 			sourceTree = "<group>";
@@ -209,7 +226,9 @@
 		CEDFCC39EEC16E801C9F122E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FAABA1DB7CACB3987671D6F4 /* Pods_mmmy.framework */,
+				0CE765F921B604D70071F87C /* libFlurry-iOS-SDK.a */,
+				0CE765F721B604750071F87C /* libFlurry-iOS-SDK.a */,
+				C80669288AD661F3E38A96AA /* Pods_mmmy.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -225,6 +244,9 @@
 				0CD5C67621ACCABF0095F0D4 /* Sources */,
 				0CD5C67721ACCABF0095F0D4 /* Frameworks */,
 				0CD5C67821ACCABF0095F0D4 /* Resources */,
+				0CE765F521B521640071F87C /* Integrate Reveal Server */,
+				0CE765F621B6034E0071F87C /* Fabric */,
+				E57D97E31DD6440AEEF6BA24 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -306,6 +328,64 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		0CE765F521B521640071F87C /* Integrate Reveal Server */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Integrate Reveal Server";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "REVEAL_APP_PATH=$(mdfind kMDItemCFBundleIdentifier=\"com.ittybittyapps.Reveal2\" | head -n 1)\nBUILD_SCRIPT_PATH=\"${REVEAL_APP_PATH}/Contents/SharedSupport/Scripts/reveal_server_build_phase.sh\"\nif [ \"${REVEAL_APP_PATH}\" -a -e \"${BUILD_SCRIPT_PATH}\" ]; then\n\"${BUILD_SCRIPT_PATH}\"\nelse\necho \"Reveal Server not loaded: Cannot find a compatible Reveal app.\"\nfi\n";
+		};
+		0CE765F621B6034E0071F87C /* Fabric */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Fabric;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# 统计\n\"${PODS_ROOT}/Fabric/run\" 528cf2b22b129d88c6abdb32b6e4885e925e515b 5927332eb561be0ae2a8ef93e8639d9b393799ed0329b5b4611446c6b114b3e5\n";
+		};
+		E57D97E31DD6440AEEF6BA24 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mmmy/Pods-mmmy-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Flurry-iOS-SDK/Flurry_iOS_SDK.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Flurry_iOS_SDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mmmy/Pods-mmmy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -318,9 +398,14 @@
 				0CD5C6B821ACDBC70095F0D4 /* LoadStoryBoardUntils.swift in Sources */,
 				0CD5C6B621ACDAD90095F0D4 /* MMMYTabbarViewController.swift in Sources */,
 				0CA67C5821AD6ED7003A2E74 /* BottomBarViewController.swift in Sources */,
+				0C21A6B721B11B2A0044D4FD /* DoneRegisterViewController.swift in Sources */,
+				0C21A6AE21B0CCE30044D4FD /* EXNotification.swift in Sources */,
+				0C21A6B021B103D40044D4FD /* EXUIViewController.swift in Sources */,
 				0CA67C5421AD6223003A2E74 /* BornDateViewController.swift in Sources */,
 				0C75E37621ACE58F001DA908 /* strings.swift in Sources */,
+				0C21A6B521B115B80044D4FD /* PasswordViewController.swift in Sources */,
 				0CD5C69921ACCB940095F0D4 /* ViewController.swift in Sources */,
+				0CE76A8421B8272C0071F87C /* LoginView.swift in Sources */,
 				0CA67C5021AD2FB2003A2E74 /* LoginViewController.swift in Sources */,
 				0CA67C6121AE8D23003A2E74 /* PhoneNumberViewController.swift in Sources */,
 				0CA67C4E21AD2B59003A2E74 /* LaunchRegisterViewController.swift in Sources */,

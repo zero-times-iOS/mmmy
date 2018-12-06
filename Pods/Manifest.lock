@@ -1,3 +1,28 @@
-PODFILE CHECKSUM: 5dc2a90cade5c186dce67c3ada5f7c46a82505ba
+PODS:
+  - Crashlytics (3.11.1):
+    - Fabric (~> 1.8.1)
+  - Fabric (1.8.2)
+  - Flurry-iOS-SDK/FlurryAds (9.2.3):
+    - Flurry-iOS-SDK/FlurrySDK
+  - Flurry-iOS-SDK/FlurrySDK (9.2.3)
+
+DEPENDENCIES:
+  - Crashlytics
+  - Fabric
+  - Flurry-iOS-SDK/FlurryAds
+  - Flurry-iOS-SDK/FlurrySDK
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Crashlytics
+    - Fabric
+    - Flurry-iOS-SDK
+
+SPEC CHECKSUMS:
+  Crashlytics: ca7ab4bc304aa216bdc2e4c1a96389ee77252203
+  Fabric: d2b22f443ba195d8a7cc204da230977c72733b40
+  Flurry-iOS-SDK: 2ea1973a6c9c6b3675765d73ea290b281f8cb084
+
+PODFILE CHECKSUM: a6f9544ca95d01ed856bd79ebfcd020a4986bf09
 
 COCOAPODS: 1.6.0.beta.2

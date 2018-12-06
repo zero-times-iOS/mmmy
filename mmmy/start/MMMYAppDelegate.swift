@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import Flurry_iOS_SDK
+import Fabric
+import Crashlytics
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +18,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-
+        // crash sdk 初始化
+        Fabric.with([Crashlytics.self])
+      
+        // 统计初始化
+        Flurry.startSession("VNDGP2259JW65W6N7P2B", with: FlurrySessionBuilder
+            .init()
+            .withCrashReporting(true)
+            .withLogLevel(FlurryLogLevelAll))
+        
         let rootViewController = LoadStoryBoardUntils.loadViewController(
             strings.storyBoard.launchStartMain,
             with: strings.vc.launchRegister)
@@ -24,7 +35,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //            strings.storyBoard.ground,
 //            with: strings.vc.mmmyTabbar)
         window?.rootViewController = rootViewController;
-        
+       
         return true
     }
 

@@ -13,5 +13,7 @@ class LoginViewController: BaseViewController {
     @IBAction func goBack(_ sender: UIButton) {
         dismiss(animated: true)
     }
-    
+    override func viewDidLoad() {
+       
+    }
 }
